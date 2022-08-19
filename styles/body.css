@@ -1,6 +1,7 @@
 .body {
   background-color: rgb(40, 42, 53);
   margin: 0;
+  margin-bottom: 60px;
 }
 
 .content {
@@ -15,7 +16,7 @@
   font-weight: 700;
   font-size: 70px;
   margin: 0;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 7px;
 }
 
@@ -75,7 +76,7 @@
   border-width: 0;
   border-radius: 1000px;
   padding-right: 44px; padding-left: 44px;
-  padding-top: 15px; padding-bottom: 15px;
+  padding-top: 13px; padding-bottom: 13px;
   margin-left: 75px;
   margin-bottom: 24px;
   transition: 200ms;
@@ -149,5 +150,6 @@ p {
 
   .subtitle {
     font-size: 24px;
+    margin-bottom: 0;
   }
 }
