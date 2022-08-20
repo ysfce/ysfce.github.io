@@ -133,23 +133,134 @@ p {
   border-radius: 8px;
 }
 
-@media (max-width: 1100px) {
-  .levels {
-    grid-template-columns: 340px 340px;
-  }
-}
 
-@media (max-width: 700px) {
-  .levels {
-    grid-template-columns: 340px;
-  }
 
+@media (max-width: 1150px) {
   .title {
-    font-size: 45px;
+    font-size: 56px;
   }
 
   .subtitle {
-    font-size: 24px;
-    margin-bottom: 0;
+    font-size: 26px;
+  }
+
+  .levels {
+    grid-template-columns: 280px 280px 280px;
+    font-size: 19px;
+  }
+
+  .levels button {
+    margin-left: 65px;
+    font-size: 19px;
+    width: 150px;
+    height: 72px;
+    padding-right: 34px; padding-left: 34px;
+    padding-top: 12px; padding-bottom: 12px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 950px) {
+  .title {
+    font-size: 54px;
+  }
+
+  .subtitle {
+    font-size: 25px;
+  }
+
+  .levels {
+    grid-template-columns: 280px 280px;
+    font-size: 19px;
+  }
+
+  .levels button {
+    margin-left: 65px;
+    font-size: 19px;
+    width: 150px;
+    height: 72px;
+    padding-right: 34px; padding-left: 34px;
+    padding-top: 12px; padding-bottom: 12px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 650px) {
+  .title {
+    font-size: 38px;
+  }
+
+  .subtitle {
+    font-size: 22px;
+    padding-right: 30px; padding-left: 30px;
+  }
+
+  .levels {
+    grid-template-columns: 300px;
+    font-size: 19px;
+  }
+
+  .levels button {
+    margin-left: 71px;
+    font-size: 21px;
+    width: 158px;
+    height: 78px;
+    padding-right: 34px; padding-left: 34px;
+    padding-top: 12px; padding-bottom: 12px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 36px;
+    padding-bottom: 0;
+  }
+
+  .subtitle {
+    font-size: 21px;
+    padding-right: 30px; padding-left: 30px;
+  }
+
+  .levels {
+    grid-template-columns: 280px;
+    font-size: 18px;
+  }
+
+  .levels button {
+    margin-left: 65px;
+    font-size: 19px;
+    width: 150px;
+    height: 74px;
+    padding-right: 34px; padding-left: 34px;
+    padding-top: 12px; padding-bottom: 12px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 350px) {
+  .title {
+    font-size: 34px;
+    padding-bottom: 0;
+  }
+
+  .subtitle {
+    font-size: 19px;
+    padding-right: 30px; padding-left: 30px;
+  }
+
+  .levels {
+    grid-template-columns: 260px;
+    font-size: 17px;
+  }
+
+  .levels button {
+    margin-left: 67px;
+    font-size: 15px;
+    width: 126px;
+    height: 66px;
+    padding-right: 30px; padding-left: 30px;
+    padding-top: 12px; padding-bottom: 12px;
+    line-height: 22px;
   }
 }
