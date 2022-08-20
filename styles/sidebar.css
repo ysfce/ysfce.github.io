@@ -1,3 +1,38 @@
 .sidebar {
+  background-color: rgb(230, 233, 235);
+  width: 200px;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  overflow: auto;
+}
+.sidebar button {
+  border-width: 0;
+  background-color: rgb(230, 233, 235);
+  color: black;
+  font-family: Source sans pro;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 16px; padding-right: 16px;
+  padding-top: 3px; padding-bottom: 3px;
+  cursor: pointer;
+  transition: 50ms;
+}
 
+.sidebar button:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.sidebar-titles {
+  border-width: 0;
+  background-color: rgb(230, 233, 235);
+  color: black;
+  font-family: Source sans pro;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 16px;
+  margin-top: 22px; margin-bottom: 18px;
 }
