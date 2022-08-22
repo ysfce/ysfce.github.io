@@ -2,3 +2,52 @@
   margin: 0;
   margin-bottom: 60px;
 }
+
+.content {
+  font-family: Source sans pro;
+  font-weight: 400;
+  display: grid;
+  padding-top: 105px;
+  padding-left: 260px;
+  padding-right: 40px;
+  z-index: 1;
+}
+
+h1 {
+  font-family: Source sans pro;
+  font-weight: 400;
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: Source sans pro;
+  font-weight: 400;
+  font-size: 34px;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.content-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-buttons button {
+  color: white;
+  background-color: rgb(13, 171, 113);
+  border-width: 0;
+  border-radius: 8px;
+  font-family: Source sans pro;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+
+hr {
+  margin: 30px -10px;
+  border: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-top-color: rgb(218, 218, 218);
+}

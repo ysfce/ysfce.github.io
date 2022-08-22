@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: space-between;
   z-index: 100;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .left-button-div button {
@@ -153,4 +153,46 @@
 .why-button:active {
   opacity: 0.9;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1100px) {
+  .why-button {
+    display: none;
+  }
+
+  .projects-button {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 850px) {
+  .projects-button {
+    display: none;
+  }
+
+  .libraries-button {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .libraries-button {
+    display: none;
+  }
+
+  .learn-button {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .learn-button {
+    display: none;
+  }
+}
+
+@media (max-width: 374px) {
+  .home-button {
+    margin-left: 30px;
+  }
 }
