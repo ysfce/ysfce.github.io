@@ -1,6 +1,6 @@
 .body {
   margin: 0;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .content {
@@ -9,23 +9,31 @@
   display: grid;
   padding-top: 105px;
   padding-left: 260px;
-  padding-right: 40px;
+  padding-right: 65px;
   z-index: 1;
 }
 
 h1 {
   font-family: Source sans pro;
   font-weight: 400;
-  font-size: 44px;
-  margin-bottom: 40px;
+  font-size: 45px;
+  margin-bottom: 30px;
 }
 
 h2 {
   font-family: Source sans pro;
   font-weight: 400;
   font-size: 34px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-top: 0;
+}
+
+p {
+  font-family: Source sans pro;
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .content-buttons {
@@ -50,4 +58,35 @@ hr {
   border-width: 0px;
   border-top-width: 1px;
   border-top-color: rgb(218, 218, 218);
+}
+
+.mark {
+  color: crimson;
+  background-color: rgba(219, 216, 216, 0.4);
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.code {
+  color: rgb(215,209,150);
+  background-color: rgb(30, 30, 30);
+  padding: 24px 26px;
+  margin: 26px 0;
+  border-radius: 7px;
+}
+
+.var-color {
+  color: rgb(66,145,198);
+}
+
+.text-color {
+  color: rgb(162, 116, 97);
+}
+
+.def-color {
+  color: rgba(37,86,158,255);
+}
+
+.output {
+  color: rgb(196, 190, 190);
 }
