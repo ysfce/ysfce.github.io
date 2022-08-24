@@ -45,3 +45,9 @@
   color: white!important;
   background-color: rgb(13, 171, 113)!important;
 }
+
+@media (max-width: 900px) {
+  .sidebar {
+    display: none;
+  }
+}

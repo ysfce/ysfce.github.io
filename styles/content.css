@@ -98,3 +98,93 @@ hr {
 .output {
   color: rgb(220, 212, 212);
 }
+
+@media (max-width: 900px) {
+  .content {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 42px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 580px) {
+  .content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  p {
+    font-size: 23px;
+    line-height: 40px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 450px) {
+  .content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 14px;
+  }
+
+  .content-buttons button {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 370px) {
+  .content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 32px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .content-buttons button {
+    font-size: 15px;
+  }
+}
