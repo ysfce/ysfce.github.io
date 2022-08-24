@@ -34,6 +34,7 @@ p {
   font-size: 22px;
   margin-top: 14px;
   margin-bottom: 14px;
+  line-height: 38px;
 }
 
 .content-buttons {
@@ -50,6 +51,12 @@ p {
   font-weight: 600;
   font-size: 22px;
   padding: 10px 20px;
+  cursor: pointer;
+  transition: 120ms;
+}
+
+.content-buttons button:hover {
+  opacity: 0.85;
 }
 
 hr {
@@ -73,6 +80,7 @@ hr {
   padding: 24px 26px;
   margin: 26px 0;
   border-radius: 7px;
+  line-height: 30px;
 }
 
 .var-color {

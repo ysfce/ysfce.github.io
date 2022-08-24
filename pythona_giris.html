@@ -35,7 +35,7 @@
       <h2 class="sidebar-titles">Python'a Giriş</h2>
       <button>Python Kurulumu</button>
       <button class="active-button">Python'a Giriş</button>
-      <button>deneme</button>
+      <button>Python Veri Tipleri</button>
     </div>
 
     <div class="content">
@@ -47,10 +47,29 @@
       </div>
       <hr>
       <h2>Print Fonksiyonu</h2>
-      <p>Bu bölümde herhangi bir programlama dilinde ilk öğreneceğiniz şeyden bahsediyoruz. Ekrana yazı yazdırmak!</p>
+      <p>Bu bölümde herhangi bir programlama dilinde ilk öğreneceğiniz şeyden bahsediyoruz. Ekrana çıktı almak!</p>
       <p>Bunun için anlamı yazdırmak olan <span class="mark">print</span> fonksiyonunu kullanıyoruz.</p>
-      <p class="code">print(<span class="text-color">"Hello World"</span>)<br><br><span class="output">&#62;&#62;&#62; Hello World</span></p>
-      <p></p>
+      <p class="code">print(<span class="text-color">"Hello World"</span>)<br><br><span class="output">&#62;&#62;&#62;&ensp;Hello World</span></p>
+      <p>Fonksiyonlar python'a belirli işlemleri yaptırmak için kullanılır. İleride fonksiyonlardan bol bol bahsedeceğiz.</p>
+      <p>Şuan ise <span class="mark">print</span> fonksiyonunun nasıl kullanılacağını aşama aşama görelim.</p>
+      <p>Yukarıdaki örnekteki gibi bir fonksiyon kullanmak için 2 şey gereklidir. Fonksiyon ve vereceğimiz değer.</p>
+      <p>Bu örnekte fonksiyonumuz <span class="mark">print()</span> ve içine verdiğimiz değer ise <span class="mark">"Hello World"</span>.</p>
+      <p>Bu fonksiyonu çalıştırdığımızda ise geri dönüş olarak <span class="mark">Hello World</span> sonucunu bize verdi.</p>
+      <hr>
+      <h2>Birden Fazla Fonksiyonun Kullanımı</h2>
+      <p>Herhangi bir programlama dilinde programlar tek bir fonksiyondan oluşmaz. Her dilin kendine özel kullanım şekli vardır.</p>
+      <p>Python'da ise genellikle her bir satırda tek bir fonksiyon kullanılır.</p>
+      <p>Örneğin aşağıdaki gibi bir koda hataya sebep verecektir.</p>
+      <p class="code">print(<span class="text-color">"Hello"</span>) print(<span class="text-color">"World"</span>)<br><br><span class="output">SyntaxError: invalid syntax</span></p>
+      <p>Böyle bir yazımda python SyntaxError verdi. (Yani yazdığımız kodda bir sıkıntı var). Doğru yazım ise aşağıdaki gibidir.</p>
+      <p class="code">print(<span class="text-color">"Hello"</span>)<br>print(<span class="text-color">"World"</span>)<br><br><span class="output">Hello<br>World</span></p>
+      <p>Bu yazımda fark edeceğiniz üzere çıktımızda <span class="mark">Hello</span> ve <span class="mark">World</span> kelimeleri alt alta yazıldı. Bu print fonksiyonunun default (varsayılan) olarak gelen bir özelliğidir. Bu ve bunun gibi özellikleri şimdilik geride bırakıyoruz. Bunlardan ileriki derslerde bahsedeceğiz.</p>
+      <hr>
+      <div class="content-buttons">
+        <button>❮ Geri</button>
+        <button>İleri ❯</button>
+      </div>
+      <hr>
 
     </div>
 
