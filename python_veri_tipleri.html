@@ -35,7 +35,8 @@
       <h2 class="sidebar-titles">Python'a Giriş</h2>
       <button>Python Kurulumu</button>
       <button onclick="location.href='pythona_giris.html'">Python'a Giriş</button>
-      <button class="active-button" onclick="location.href='python_veri_tipleri.html'">Python Veri Tipleri</button>
+      <button onclick="location.href='python_degiskenler.html'">Python Değişkenler</button>
+      <button class="active-button" onclick="location.href='python_veri_tipleri.html'">Python Veri Tipleri-1</button>
     </div>
 
     <div class="content">
@@ -46,21 +47,20 @@
         <button>İleri ❯</button>
       </div>
       <hr>
-      <h2>Veri Tipleri (Değişkenler)</h2>
-      <p>Veri tipleri (diğer bir adıyla değişkenler), bir değeri program içinde depolamaya yararlar.</p>
-      <p>Veri tiplerinin programımıza kattığı en önemli özelliği sonradan değiştirilebilir olmasıdır.</p>
+      <h2>Veri Tipleri</h2>
+      <p>Değişkenlerde depoladığımız verilerin çeşitleri vardır. Örneğin <span class="mark">merhaba</span> gibi bir değer <span class="mark">string</span> veri tipiyle depolanırken <span class="mark">15</span> gibi bir değer <span class="mark">integer</span> veri tipiyle depolanır.</p>
+      <p>Aşağıda bazı veri tipi örnekleri verilmiştir:</p>
+      <p>&ensp;<span class="mark">string</span> :&ensp;Metin Veri Tipi<br>&ensp;<span class="mark">integer</span> :&ensp;Tam Sayı Veri Tipi<br>&ensp;<span class="mark">float</span> :&ensp;Kesirli Sayı Veri Tipi<br>&ensp;<span class="mark">boolean</span> :&ensp;Doğru-Yanlış Veri Tipi</p>
       <hr>
-      <h2>Veri Tiplerinin Oluşturulması</h2>
-      <p class="code"><span class="var-color">x =</span> 5<br><span class="var-color">y =</span> <span class="text-color">"Ahmet"</span></p>
-      <p>Yukarıda 2 adet veri tipi oluşturduk. Bu verilerden <span class="mark">5</span> <span class="mark">x</span> değişkenine, <span class="mark">Ahmet</span> ise <span class="mark">y</span> değişkenine tanımlandı.</p>
-      <p>Veri tipleri oluşturulurken eşitliklerden yararlanılır. Eşitliğin solundaki değer bizim değişkenimiz olurken sağındaki değer ise o değişke verilen değerdir.</p>
-      <hr>
-      <h2>Değişkenlerin Kullanılması</h2>
-      <p>Önceki derste öğrendiğimiz <span class="mark">print</span> fonksiyonunu kullanarak değişkenimizin içindeki değeri çağırabiliriz.</p>
-      <p class="code"><span class="var-color">x =</span> 5<br>print(<span class="var-color">x</span>)<br><br><span class="output">5</span></p>
-      <p>Yukarıdaki örnekte öncelikle <span class="mark">x</span> adında bir değişken tanımladık. Daha sonra o değişkenin değerini <span class="marl">print</span> fonksiyonuyla yazdırdık ve program bize <span class="mark">5</span> sonucunu verdi.</p>
-      <p class="code"><span class="var-color">daire_numarasi =</span> 15<br>print(<span class="var-color">daire_numarasi</span>)</p>
-      <p>Peki ya yukarıdaki gibi bir değişken tanımlayıp bunu <span class="mark">print</span> ile yazdırırsak ekrana yazılacak olan şey <span class="mark">daire_numarasi</span> mi olacak yoksa <span class="mark">15</span> mi olacak? Bu konuya bidahaki dersimizde değineceğiz.</p>
+      <h2>Veri Tipi Oluşturma</h2>
+      <p>Herhangi bir değişken tanımladığımızda biz belirtmesek bile python o veri tipinin türünü algılar. Bunu görmek için <span class="mark">type</span> fonksiyonunu kullanabiliriz.</p>
+      <p><span class="mark">type</span> fonksiyonu içine verdiğimiz bir değişkenin veri tipi hakkında bilgi verir. Bunu kullanmak için şöyle bir komutu çalıştırabiliriz:</p>
+      <p class="code"><span class="var-color">x </span>= 15<br>type(<span class="var-color">x</span>)</p>
+      <p>Örnekte ilk önce bir <span class="mark">x</span> değişkeni oluşturduk. Daha sonra <span class="mark">type</span> fonksiyonu ile değişkenin içindeki değeri öğrenmeye çalıştık. Fakat böyle bir kullanımda herhangi bir output alamadık. Önceki derslerde öğrendiğimiz <span class="mark">print</span> fonksiyonunun aslında çok basit bir işlevi olsada programlarımızda diğer fonksiyonlarla birlikte kullanmamız gerekebiliyor.</p>
+      <p><span class="mark">type</span> fonksiyonunun sonucunu görmek içinde kodumuzu şu şekilde değiştirmemiz gerekmekte:</p>
+      <p class="code"><span class="var-color">x </span>= 15<br>print(type(<span class="var-color">x</span>))<br><br><span class="output">&#60;class 'int'&#62;</span></p>
+      <p>Bu değişiklik sonucunda <span class="mark">print</span> fonksiyonunu da kullanarak değişkenimizin veri tipini öğrenebildik.</p>
+      <p>Output kısmındaki <span class="mark">class</span> değişkenin tipi hakkında bilgi verildiğini belirtirken <span class="mark">int</span> ise tam sayı anlamına gelen <span class="mark">integer</span>'ın kısaltmasıdır.</p>
       <hr>
       <div class="content-buttons">
         <button>❮ Geri</button>
